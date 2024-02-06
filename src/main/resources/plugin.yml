@@ -1,0 +1,40 @@
+#https://www.spigotmc.org/wiki/plugin-yml/
+api: 1.19.4
+name: RedBuild
+authors: [ElitGaimix]
+version: 1.0.0
+description: Spigot plugin
+main: fr.redbuild.spigot.Main
+load: POSTWORLD
+api-version: 1.19
+permissions:
+  redbuild.admin:
+    description: Permission to use all RedBuild commands
+    default: op
+    children:
+      redbuild.staff: true
+      redbuild.plots.nrclaim: true
+      redbuild.models.world: true
+      redbuild.models.region: true
+      redbuild.models.build: true
+  redbuild.staff:
+    description: Permission to use all staff commands
+    default: op
+  redbuild.plots.nrclaim:
+    description: Permission to claim without reset a plot
+    default: op
+  redbuild.plots.info.all:
+    description: Permission to see all info about a plot
+    default: op
+  redbuild.models.world:
+    description: Permission to use all world commands
+    default: op
+  redbuild.models.region:
+    description: Permission to use all region commands
+    default: op
+  redbuild.models.build:
+    description: Permission to use build command
+    default: op
+  redbuild.models.permission:
+    description: Permission to use permission command
+    default: op

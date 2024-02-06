@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/epicraft_spigot.test.iml" filepath="$PROJECT_DIR$/.idea/modules/epicraft_spigot.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fr.epicraft.epicraft_spigot.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fr.epicraft.epicraft_spigot.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/redbuild.main.iml" filepath="$PROJECT_DIR$/.idea/modules/redbuild.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/redbuild.test.iml" filepath="$PROJECT_DIR$/.idea/modules/redbuild.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spigot.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spigot.test.iml" />
+    </modules>
+  </component>
+</project>
